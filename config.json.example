@@ -1,0 +1,6 @@
+{
+  "bitbucket": "https://repository",
+  "login": "mylogin",
+  "password": "mypassword",
+  "gitDirectory": "~/work/projects"
+}
