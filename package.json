@@ -2,9 +2,8 @@
   "name": "sync-jira-git",
   "version": "1.0.0",
   "description": "Sync all bitbucket repositories of jira using credentials",
-  "main": "index.js",
+  "bin": "./bin/sync-jira-git",
   "scripts": {
-    "start": "node --harmony-async-await index.js -c ./config.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -13,8 +12,14 @@
     "cheerio": "^0.22.0",
     "child-process-promise": "^2.2.0",
     "colors": "^1.1.2",
+    "console.table": "^0.8.0",
     "expand-home-dir": "0.0.3",
+    "inquirer": "^3.0.6",
+    "inquirer-directory": "^2.1.0",
+    "moment": "^2.18.1",
+    "node-json-db": "^0.7.3",
     "optimist": "^0.6.1",
+    "request": "^2.81.0",
     "request-promise": "^4.1.1",
     "underscore": "^1.8.3"
   }
