@@ -16,7 +16,7 @@
     "cheerio": "^0.22.0",
     "child-process-promise": "^2.2.0",
     "colors": "^1.1.2",
-    "console.table": "^0.8.0",
+    "console.table": "^0.10.0",
     "expand-home-dir": "0.0.3",
     "inquirer": "^3.0.6",
     "inquirer-directory": "^2.1.0",

@@ -1,5 +1,5 @@
 #!/bin/sh
-":" //# comment; exec /usr/bin/env node --harmony-async-await "$0" "$@"
+":" //# comment; exec /usr/bin/env node "$0" "$@"
 
 let syncer = require('../lib/sync-jira-git');
 syncer.run();

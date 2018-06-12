@@ -12,6 +12,8 @@ It parse bitbucket pages for new repositories and exec `git clone`, if directory
 
 ## Usage
 
+Tested on node v10.
+
 1. Clone this repo and cd to it
 2. `npm install -g`
 3. Ensure you know about `sync-jira-git --help`
